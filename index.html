@@ -1,0 +1,67 @@
+﻿<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Dilmin Ekanayake portfolio website." />
+    <title>Dilmin Ekanayake | Portfolio</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Poppins", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      :root {
+        scrollbar-color: #101317 #eef0f4;
+        scrollbar-width: thin;
+      }
+
+      * {
+        scrollbar-width: thin;
+        scrollbar-color: #101317 #eef0f4;
+      }
+
+      *::-webkit-scrollbar {
+        width: 12px;
+        height: 12px;
+      }
+
+      *::-webkit-scrollbar-track {
+        background: #eef0f4;
+      }
+
+      *::-webkit-scrollbar-thumb {
+        background: linear-gradient(180deg, #0f1720 0%, #1f2937 100%);
+        border: 3px solid #eef0f4;
+        border-radius: 999px;
+      }
+
+      *::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(180deg, #000000 0%, #111827 100%);
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="module" src="/src/main.jsx"></script>
+  </head>
+  <body class="m-0 bg-[#eef0f4] font-sans text-[#1e2430]">
+    <div id="root"></div>
+  </body>
+</html>
