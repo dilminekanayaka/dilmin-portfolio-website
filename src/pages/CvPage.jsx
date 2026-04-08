@@ -57,6 +57,7 @@ function CvPage() {
               <h4 className="text-[15px] font-semibold text-[#1c2432] sm:text-[16px]">BSc (Hons) in Software Engineering</h4>
               <p className="mt-1 text-[13px] text-[#737b87] sm:text-[14px]">Colombo International Nautical and Engineering College (CINEC)</p>
               <p className="mt-[2px] text-[13px] text-[#737b87] sm:text-[14px]">Major: Full-Stack Development</p>
+              <p className="mt-[2px] text-[13px] text-[#737b87] sm:text-[14px]">CGPA: 3.71</p>
             </div>
             <p className="text-[13px] text-[#9aa2ae] sm:text-[14px]">Oct 2023 - Present</p>
           </div>
