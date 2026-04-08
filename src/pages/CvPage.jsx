@@ -60,6 +60,20 @@ function CvPage() {
             </div>
             <p className="text-[13px] text-[#9aa2ae] sm:text-[14px]">Oct 2023 - Present</p>
           </div>
+          <div className="mt-4 flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
+            <div>
+              <h4 className="text-[15px] font-semibold text-[#1c2432] sm:text-[16px]">Diploma in Software Engineering</h4>
+              <p className="mt-1 text-[13px] text-[#737b87] sm:text-[14px]">CODL , Sabaragamuwa University of Sri Lanka</p>
+            </div>
+            <p className="text-[13px] text-[#9aa2ae] sm:text-[14px]">May 2020 - Jan 2022 </p>
+          </div>
+          <div className="mt-4 flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
+            <div>
+              <h4 className="text-[15px] font-semibold text-[#1c2432] sm:text-[16px]">Diploma in Graphic Design</h4>
+              <p className="mt-1 text-[13px] text-[#737b87] sm:text-[14px]">Wijaya Graphics, Sri Lanka</p>
+            </div>
+            <p className="text-[13px] text-[#9aa2ae] sm:text-[14px]">March 2020 - Nov 2021 </p>
+          </div>
         </SectionCard>
 
         <SectionCard id="skills" className="scroll-mt-20 px-4 py-4 sm:px-6 sm:py-5">
