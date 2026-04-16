@@ -1,4 +1,4 @@
-﻿import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Banner from "../components/Banner";
 import SectionCard from "../components/SectionCard";
 import { assets, connectLinks, contactInfo } from "../data/siteData";
@@ -172,7 +172,7 @@ function ContactPage() {
                 placeholder="Your Message"
                 className="w-full rounded-[2px] border border-[#e2e6ec] px-3 py-3 text-[15px] text-[#616b79] outline-none placeholder:text-[#c1c6cf]"
               />
-              <input type="hidden" name="to_email" value="pasindusupun461@gmail.com" />
+              <input type="hidden" name="to_email" value="dilmin.dev@gmail.com" />
               {status.message ? (
                 <p className={`text-[13px] ${status.type === "success" ? "text-[#1f9d55]" : "text-[#dc2626]"}`}>
                   {status.message}

@@ -1,4 +1,4 @@
-﻿import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Banner from "../components/Banner";
 import SectionCard from "../components/SectionCard";
 import { assets, socialLinks } from "../data/siteData";
@@ -39,15 +39,15 @@ function HomePage() {
         subtitle="Full-Stack Developer | Software Engineering Student"
         image={assets.bannerImage}
         hideContentOnMobile
-        className="h-[80px] sm:h-[150px]"
+        className="h-[152px] sm:h-[150px]"
       />
 
       <SectionCard className="relative z-10 border-t-0 px-4 pb-4 pt-0 sm:px-7 sm:py-7">
-        <div className="relative z-10 ml-1 -mt-[52px] flex h-[138px] w-[138px] items-center justify-center rounded-full border-[5px] border-white bg-[#111] shadow-[0_10px_24px_rgba(20,28,40,0.16)] sm:hidden">
+        <div className="relative z-10 -mt-[88px] ml-1 flex h-[154px] w-[154px] items-center justify-center rounded-full border-[5px] border-white bg-[#111] shadow-[0_10px_24px_rgba(20,28,40,0.16)] sm:hidden">
           <img
             src={assets.profileImage}
             alt="Dilmin Ekanayake"
-            className="h-[126px] w-[126px] rounded-full object-cover"
+            className="h-[140px] w-[140px] rounded-full object-cover"
           />
         </div>
 
@@ -79,7 +79,7 @@ function HomePage() {
             </p>
 
             <ul className="mt-6 space-y-[5px] text-left text-[14px] font-medium leading-[1.62] text-[#334054] sm:text-[16px] lg:text-[15px]">
-              <li>- pasindusupun461@gmail.com</li>
+              <li>- dilmin.dev@gmail.com</li>
               <li>- (+94) 771338918</li>
               <li>- Malabe,</li>
               <li>- Sri Lanaka</li>

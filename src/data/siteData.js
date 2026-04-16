@@ -1,4 +1,4 @@
-﻿import bannerImage from "../assets/images/banner.jpg";
+import bannerImage from "../assets/images/banner.jpg";
 import profileImage from "../assets/images/profile.jpg";
 import faviconImage from "../assets/images/favicon.png";
 import easyAutoMainImage from "../assets/images/projects/Easy Auto/main-image.png";
@@ -32,7 +32,7 @@ export const navItems = [
 ];
 
 export const contactInfo = {
-  email: "pasindusupun461@gmail.com",
+  email: "dilmin.dev@gmail.com",
   phone: "(+94) 77 133 8918",
   location: "Malabe, Sri Lanka",
   updatedAt: "Last updated on April 04, 2026",

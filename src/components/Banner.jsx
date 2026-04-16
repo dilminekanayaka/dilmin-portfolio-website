@@ -6,7 +6,7 @@
   className = "",
   hideContentOnMobile = false,
 }) {
-  const heightClass = compact ? "h-[90px] sm:h-[100px]" : "h-[100px] sm:h-[50x]";
+  const heightClass = compact ? "h-[90px] sm:h-[100px]" : "h-[120px] sm:h-[150px]";
 
   return (
     <section className={`relative overflow-hidden border border-[#dfe3ea] bg-black ${heightClass} ${className}`.trim()}>
